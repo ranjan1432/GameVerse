@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "GTA VI",
+    "developer": "Rockstar Games",
+    "publisher": "Rockstar Games",
+    "category": "Action",
+    "rating": 4.9,
+    "release": "2026",
+    "platform": ["PC", "PS5", "Xbox Series X"],
+    "price": "$69.99",
+    "size": "150 GB",
+    "image": "assest/images/gta6.jpg",
+    "description": "Explore Vice City in Rockstar's biggest open-world adventure."
+  },
+  {
+    "id": 2,
+    "name": "Black Myth: Wukong",
+    "developer": "Game Science",
+    "publisher": "Game Science",
+    "category": "RPG",
+    "rating": 4.8,
+    "release": "2024",
+    "platform": ["PC", "PS5"],
+    "price": "$59.99",
+    "size": "130 GB",
+    "image": "assest/images/game/wukong.jpg",
+    "description": "Action RPG inspired by Journey to the West."
+  },
+  {
+    "id": 3,
+    "name": "Cyberpunk 2077",
+    "developer": "CD Projekt Red",
+    "publisher": "CD Projekt",
+    "category": "RPG",
+    "rating": 4.8,
+    "release": "2020",
+    "platform": ["PC", "PS5", "Xbox"],
+    "price": "$49.99",
+    "size": "90 GB",
+    "image": "assest/images/cyberpunk.jpg",
+    "description": "Experience the futuristic Night City."
+  },
+  {
+    "id": 4,
+    "name": "Valorant",
+    "developer": "Riot Games",
+    "publisher": "Riot Games",
+    "category": "FPS",
+    "rating": 4.8,
+    "release": "2020",
+    "platform": ["PC"],
+    "price": "Free",
+    "size": "35 GB",
+    "image": "assest/images/valorant.jpg",
+    "description": "5v5 tactical hero shooter."
+  },
+  {
+    "id": 5,
+    "name": "PUBG",
+    "developer": "KRAFTON",
+    "publisher": "KRAFTON",
+    "category": "Battle Royale",
+    "rating": 4.7,
+    "release": "2017",
+    "platform": ["PC", "Mobile", "Console"],
+    "price": "Free",
+    "size": "45 GB",
+    "image": "assest/images/bgmi.jpg",
+    "description": "Fight to become the last survivor."
+  }
+]

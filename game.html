@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameVerse</title>
+    <link rel="stylesheet" href="assest/css/game.css">
+    <link rel="stylesheet" href="assest/css/responsive.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+     <div id="loader">
+        <div class="load-container">
+            <h1>GameVerse</h1>
+            <div class="loading-bar">
+                <span></span>
+            </div>
+        </div>
+     </div>
+     <header>
+        <nav class="navbar">
+            <div class="logo">
+                <div class="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <i class="fa-solid fa-gamepad"></i>
+                <span>GameVerse</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#featured">Games</a></li>
+                <li><a href="#tournament">Esports</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+     </header>
+     <section class="search-section">
+    <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="searchInput" placeholder="Search your favorite game...">
+    </div>
+</section>
+     <section class="hero" id="home">
+        <div class="hero-content reveal">
+            <h1 id="hero-title">PLAY BEYOND <span>LIMITS</span></h1>
+            <p>Experience next Generation Gaming With Premium Graphics, Esports Tournments and Gaming Community.</p>
+            <div class="hero-button">
+                <a href="#" class="btn-primary">Explore Games</a>
+                <a href="#" class="btn-secondary">Watch Trailer</a>
+            </div>
+        </div>
+     </section>
+      <section class="featured" id="featured">
+        <div class="section-title reveal">
+            <h2>Featured Games</h2>
+            <p>Explore The Most Popular Games played by Millions of Gamers Worldwide.</p>
+        </div>
+               <div class="games-container">
+                 <div class="game-card">
+                    <img src="./assest/images/gta 6.jpg" alt="">
+                    <div class="card-content">
+                        <h3>GTA VI</h3>
+                        <button class="wishlist-btn"data-game="GTA VI"><i class="fa-regular fa-heart"></i></button>
+                        <span>Action • Open World</span>
+                        <p>Experience The Next Generation Open-World Adventure.</p>
+                        <a href="#" class="learn-more">Learn More</a>
+                    </div>
+                 </div>
+                 <div class="game-card">
+                    <img src="./assest/images/valorant.jpg" alt="">
+                    <div class="card-content">
+                        <h3>valorant</h3>
+                         <button class="wishlist-btn"data-game="Valorant"><i class="fa-regular fa-heart"></i></button>
+                        <span>Fps • Tatical</span>
+                        <p>Precision Shooting And Competitive Gameplay.</p>
+                        <a href="#" class="learn-more">Learn More</a>
+                    </div>
+                 </div>
+                 <div class="game-card">
+                    <img src="./assest/images/bgmi.jpg" alt="">
+                    <div class="card-content">
+                        <h3>BGMI</h3>
+                        <button class="wishlist-btn"data-game="BGMI"><i class="fa-regular fa-heart"></i></button>
+                        <span>Battle Royale</span>
+                        <p>Fight Until The Last player Survives On The Battlefield.</p>
+                        <a href="#" class="learn-more">Learn More</a>
+                    </div>
+                 </div>
+             </div>
+      </section>
+       <section class="categories">
+        <div class="section-title reveal">
+            <h2>Game Categories</h2>
+            <p>Choose Your favourite Genre And Start Your Journey.</p>
+        </div>
+        <div class="category-grid">
+            <div class="category-card reveal">
+                <i class="fa-solid fa-crosshairs"></i>
+                <h3>FPS</h3>
+            </div>
+            <div class="category-card reveal">
+                <i class="fa-solid fa-khanda"></i>
+                <h3>Action</h3>
+            </div>
+            <div class="category-card reveal">
+                <i class="fa-solid fa-car-side"></i>
+                <h3>Racing</h3>
+            </div>
+            <div class="category-card reveal">
+                <i class="fa-solid fa-earth-americas"></i>
+                <h3>Open World</h3>
+            </div>
+            <div class="category-card reveal">
+                <i class="fa-solid fa-futbol"></i>
+                <h3>Sports</h3>
+            </div>
+            <div class="category-card reveal">
+                <i class="fa-solid fa-ghost"></i>
+                <h3>Horror</h3>
+            </div>
+            <div class="category-card reveal">
+                <i class="fa-solid fa-puzzle-piece"></i>
+                <h3>Puzzle</h3>
+            </div>
+            <div class="category-card reveal">
+                <i class="fa-solid fa-rocket"></i>
+                <h3>SCI-FI</h3>
+            </div>
+        </div>
+       </section>
+        <section class="tournament" id="tournament">
+            <div class="tournament-overlay">
+                <div class="tournament-content reveal">
+                    <span class="live-badge">
+                        🔴 LIVE 
+                    </span>
+                    <h2>BGMI MOBILE GLOBAL CHAMPIONSHIP</h2>
+                    <p>Join The World's Biggest Tournament and Complete Against The Best Players.</p>
+                    <div class="tournament-info">
+                        <div>
+                            <h3>$2M</h3>
+                            <span>Prize Poll</span>
+                        </div>
+                        <div>
+                            <h3>32</h3>
+                            <span>Teams</span>
+                        </div>
+                        <div>
+                            <h3>28 Aug</h3>
+                            <span>Date</span>
+                        </div>
+                    </div>
+                    <a href="#" class="register-btn">Register Now</a>
+                </div>
+            </div>
+        </section>
+         <section class="news" id="news">
+            <div class="section-title reveal">
+                <h2>Trending Gaming News</h2>
+                <p>Stay Updated With The Latest Gaming News And Announcement.</p>
+            </div>
+            <div class="news-grid">
+                 <div class="news-card large reveal">
+                     <img src="./assest/images/cyberpunk bg" alt="News">
+                     <div class="news-content">
+                         <span>30 July 2026</span>
+                         <h3>Cyberpunk 2077 Expansion Offically Announced</h3>
+                         <a href="#">Read More →</a>
+                        </div>
+                    </div>
+                    <div class="news-card reveal">
+                        <img src="./assest/images/gta 6 bg" alt="News">
+                        <div class="news-content">
+                    <span>28 July 2026</span>
+                    <h3>GTA VI Gameplay Trailer Breaks Records</h3>
+                    <a href="#">Read More →</a>
+                 </div>
+            </div>
+            <div class="news-card reveal">
+                <img src="./assest/images/valorant bg" alt="News">
+                <div class="news-content">
+                    <span>25 July 2026</span>
+                    <h3>Valorant Champions Begins Next Month</h3>
+                    <a href="#">Read More →</a>
+                 </div>
+            </div>
+        </div>
+         </section>
+          <section class="stats">
+            <div class="section-title">
+                <h2>Our Gaming Community</h2>
+                <p>Millions Of Gamers Trust GameVerse Everyday.</p>
+            </div>
+            <div class="stats-container">
+                <div class="stat-box reveal">
+                    <i class="fa-solid fa-users"></i>
+                    <h3 class="counter" data-target="5000000">0</h3>
+                    <p>Active Players</p>
+                </div>
+                <div class="stat-box reveal">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h3 class="counter" data-target="250">0</h3>
+                    <p>Games</p>
+                </div>
+                <div class="stat-box reveal">
+                    <i class="fa-solid fa-trophy"></i>
+                    <h3 class="counter" data-target="150">0</h3>
+                    <p>Tournaments</p>
+                </div>
+                <div class="stat-box reveal">
+                    <i class="fa-solid fa-handshake"></i>
+                    <h3 class="counter" data-target="100">0+</h3>
+                    <p>Partners</p>
+                </div>
+            </div>
+          </section>
+            <div class="game-modal" id="gameModal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <img src="" id="modalImage" alt="">
+                        <div class="modal-info">
+                            <h2 id="modalTitle"></h2>
+                            <p id="modalCategory"></p>
+                            <p id="modalDescription"></p>
+                                <div class="modal-details">
+                                    <span id="modalRelease"></span>
+                                    <span id="modalSize"></span>
+                                    <span id="modalPlatform"></span>
+                                </div>
+                                <div class="modal-buttons">
+                                    <button class="wishlist-btn" href="wishlist.html">
+                                        ❤️ Wishlist
+                                    </button>
+                                    <button class="trailer-btn">
+                                        ▶ Watch Trailer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+           <footer class="footer reveal" id="footer">
+            <div class="footer-container">
+                 <div class="footer-box">
+                    <div class="footer-logo">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>GameVerse</span>
+                    </div>
+                    <p>Experience the future of gaming with the latest games, esports tournaments and gaming community.</p>
+                 </div>
+                  <div class="footer-box">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Tournament</a></li>
+                        <li><a href="#">Conatcts</a></li>
+                    </ul>
+                  </div>
+                   <div class="footer-box">
+                    <h3>Contact</h3>
+                    <p>Email : ranjanbalamurugan01@gmail.com</p>
+                    <p>Phone : +91 63696 62818</p>
+                    <p>India</p>
+                   </div>
+                    <div class="footer-box">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#"><li class="fab fa-facebook-f"></li></a>
+                            <a href="#"><li class="fab fa-instagram"></li></a>
+                            <a href="#"><li class="fab fa-x-twitter"></li></a>
+                            <a href="#"><li class="fab fa-youtube"></li></a>
+                            <a href="#"><li class="fab fa-discord"></li></a>
+                        </div>
+                    </div>
+            </div>
+            <div class="footer-bottom">
+                <p>©  2026 GameVerse. All Rights Reserved.</p>
+            </div>
+           </footer>
+
+    <script src="assest/javascript/game.js"></script>
+    <script type="module" src="assest/javascript/whishlight.js"></script>
+    <script src="assest/javascript/search.js"></script>
+    <script src="assest/javascript/model.js"></script>
+</body>
+</html>
